@@ -1,0 +1,38 @@
+---
+title: Welcome to Wubbiki!
+description: wubwiki reincarnated..
+template: splash
+hero:
+  tagline: wiki.wubbygame.com reincarnated..
+  image:
+    file: ../../assets/wubbikiopen.png
+---
+
+import { Card, LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+## hi where do i go please tell me
+
+<LinkCard
+  title="Guide"
+  description="Learn Wubby, part by part."
+  href="/guides/basics/entry"
+/>
+
+<CardGrid>
+	<LinkCard
+	title="Reference"
+	description="'What does this [part] do?'"
+	href="/reference/example.md"
+	/>
+	<LinkCard
+	title="Other"
+	description="Changelogs, placeholder etc."
+	href="/reference/example.md"
+	/>
+</CardGrid>
+
+<LinkCard
+	title="Looking for Wubbypedia?"
+	description="Click me!"
+	href="https://wubbypedia.miraheze.org/wiki/Main_Page"
+/>
