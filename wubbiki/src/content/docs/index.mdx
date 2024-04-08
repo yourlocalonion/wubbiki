@@ -1,24 +1,40 @@
 ---
 title: Welcome to Wubbiki!
-description: wubwiki reincarnated..
+description: wubby wiki lol
 template: splash
 hero:
-  tagline: wiki.wubbygame.com reincarnated..
+  tagline: the NEW wubby wiki!
   image:
     file: ../../assets/wubbikiopen.png
+  actions:
+    - text: Learn Wiring!
+      link: /guides/basics/entry
+      icon: open-book
+      variant: primary
+    - text: Contribute to the Wubbiki!
+      link: /contributing/contributing
+      icon: pencil
+      variant: secondary
+    - text: Looking for Wubbypedia instead?
+      link: https://wubbypedia.miraheze.org/
+      icon: magnifier
+      variant: minimal
 ---
 
 import { Card, LinkCard, CardGrid } from '@astrojs/starlight/components';
 
-## hi where do i go please tell me
-
+## Pages
 <LinkCard
-  title="Guide"
-  description="Learn Wubby, part by part."
-  href="/guides/basics/entry"
+	title="Wiring Guide"
+	description="Learn Wubby wiring!"
+	href="/guides/basics/entry"
 />
-
 <CardGrid>
+	<LinkCard
+	title="Community"
+	description="Stuff thats inside the wubby community. (PAGE NOT EXIST YET)"
+	href="/community"
+	/>
 	<LinkCard
 	title="Reference"
 	description="'What does this [part] do?'"
@@ -29,10 +45,9 @@ import { Card, LinkCard, CardGrid } from '@astrojs/starlight/components';
 	description="Changelogs, placeholder etc."
 	href="/reference/example.md"
 	/>
+	<LinkCard
+	title="Contributing"
+	description="Help us out!"
+	href="/contributing/contributing.mdx"
+	/>
 </CardGrid>
-
-<LinkCard
-	title="Looking for Wubbypedia?"
-	description="Click me!"
-	href="https://wubbypedia.miraheze.org/wiki/Main_Page"
-/>

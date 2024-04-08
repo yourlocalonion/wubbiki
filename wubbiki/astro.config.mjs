@@ -8,6 +8,13 @@ export default defineConfig({
 			title: 'Wubbiki',
 			social: {
 				github: 'https://github.com/yourlocalonion/wubbiki',
+				discord: 'https://discord.gg/wXZtfzRKWw',
+			},
+			logo: {
+				src: './src/assets/wubbiki.svg'
+			},
+			editLink: {
+				baseUrl: 'https://github.com/yourlocalonion/wubbiki/tree/main/wubbiki'
 			},
 			sidebar: [
 				{
@@ -16,8 +23,21 @@ export default defineConfig({
 				},
 				{
 					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					autogenerate: { directory: 'reference' }
 				},
+				{
+					label: 'Contributing',
+					autogenerate: { directory: 'contributing' },
+				},
+				{
+					label: 'Community',
+					autogenerate: { directory: 'community' },
+					badge: { text: 'WIP', variant: 'caution' },
+				},
+			],
+			customCss: [
+				// Relative path to your custom CSS file
+				'./src/styles/custom.css',
 			],
 		}),
 	],
