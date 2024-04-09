@@ -26,6 +26,10 @@ export default defineConfig({
 					autogenerate: { directory: 'contributing' },
 				},
 				{
+					label: 'Other',
+					autogenerate: { directory: 'other' },
+				},
+				{
 					label: 'Community',
 					autogenerate: { directory: 'community' },
 					badge: { text: 'WIP', variant: 'caution' },
