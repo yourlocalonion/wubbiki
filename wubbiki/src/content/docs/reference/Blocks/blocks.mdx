@@ -2,7 +2,7 @@
 title: Blocks
 description: a
 ---
-import { Card, LinkCard, Aside } from '@astrojs/starlight/components';
+import { Tabs, TabItem, Aside } from '@astrojs/starlight/components';
 
 <Aside type="caution" title="Notice">
 This page was imported directly from the original wiki's backups. Only slight edits has been made.
@@ -17,63 +17,82 @@ This page is outdated.
 Basic building parts. Can be positioned/shaped/rotated and can inhabit any color or material.
 </Aside>
 
-| Block Name | Preview |
-|-----|---------|
-| Block | ![block.png](../../../../assets/wikiassets/images/block.png ) |
-| Cone | ![cone.png](../../../../assets/wikiassets/images/cone.png ) |
-| Corner Cylinder | ![cornercylinder.png](../../../../assets/wikiassets/images/corner_cylinder.png ) |
-| Corner Cylinder 2 | ![corndercylinder2.png](../../../../assets/wikiassets/images/corner_cylinder2.png ) |
-| Corner Wedge | ![cornerwedge.png](../../../../assets/wikiassets/images/corner_wedge.png ) |
-| Corner Wedge 2 | ![cornerwedge2.png](../../../../assets/wikiassets/images/corner_wedge2.png ) |
-| Cube | ![cube.png](../../../../assets/wikiassets/images/cube.png ) |
-| Cylinder | ![cylinder.png](../../../../assets/wikiassets/images/cylinder.png ) |
-| Cylinder Cap | ![cylindercap.png](../../../../assets/wikiassets/images/cylinder_cap.png ) |
-| Edge Sphere | ![edgesphere.png](../../../../assets/wikiassets/images/edge_sphere.png ) |
-| Edge Wedge | ![edgewedge.png](../../../../assets/wikiassets/images/edge_wedge.png ) (funny name) |
-| Half Sphere | ![halfsphere.png](../../../../assets/wikiassets/images/half_sphere.png ) |
-| Hexagon | ![hexagon.png](../../../../assets/wikiassets/images/hexagon.png ) |
-| Hollow Sphere | ![hollowsphere.png](../../../../assets/wikiassets/images/sphere.png ) |
-| Inverted Cylinder | ![invertedcylinder.png](../../../../assets/wikiassets/images/inverted_cylinder.png ) |
-| Inverted Edge Sphere | ![invertededgesphere.png](../../../../assets/wikiassets/images/inverted_edge_sphere.png ) |
-| Inverted Quarter Cylinder | ![invertedquartercylinder.png](../../../../assets/wikiassets/images/inverted_quarter_cylinder.png ) |
-| Dodecahedron | ![dodecahedron.png](../../../../assets/wikiassets/images/dodecahedron.png ) (will fix the bg inconsistency soon)| 
-| Egg | ![egg.png](../../../../assets/wikiassets/images/egg.png ) |
-| Fence | ![fence.png](../../../../assets/wikiassets/images/fence.png ) |
-| Frustrum | ![frustrum.png](../../../../assets/wikiassets/images/frustrum.png ) |
-| Head | ![head.png](../../../../assets/wikiassets/images/head.png ) |
-| Hexagon Ring | ![hexagonring.png](../../../../assets/wikiassets/images/hexagon_ring.png ) |
-| Hexagonal Cone | ![hexagonalcone.png](../../../../assets/wikiassets/images/hexagonal_cone.png ) |
-| Hollow Cylinder | ![hollowcylinder.png](../../../../assets/wikiassets/images/hollow_cylinder.png ) |
-| Octagon | ![octagon.png](../../../../assets/wikiassets/images/octagon.png ) |
-| Pyramid | ![pyramid.png](../../../../assets/wikiassets/images/pyramid.png ) |
-| Pyramidal Hexagon | ![pyramidalhexagon.png](../../../../assets/wikiassets/images/pyramidal_hexagon.png ) |
-| Quarter Cylinder | ![quartercylinder.png](../../../../assets/wikiassets/images/quarter_cylinder.png ) |
-| Pentagon | ![pentagon.png](../../../../assets/wikiassets/images/pentagon.png ) |
-| Pentagon Ring | ![pentagonring.png](../../../../assets/wikiassets/images/pentagon_ring.png ) |
-| Pentagonal Cone | ![pentagonalcome.png](../../../../assets/wikiassets/images/pentagonal_cone.png ) |
-| Ring | ![ring.png](../../../../assets/wikiassets/images/ring.png ) |
-| Seat Block | ![seatblock.png](../../../../assets/wikiassets/images/seat_block.png ) |
-| Sphere | ![sphere.png](../../../../assets/wikiassets/images/sphere.png ) |
-| Spiked Cylinder | ![spikedcylinder.png](../../../../assets/wikiassets/images/spiked_cylinder.png ) |
-| Square Ring | ![.png](../../../../assets/wikiassets/images/square_ring.png ) |
-| Squashed Ring | ![squashedring.png](../../../../assets/wikiassets/images/squashed_ring.png ) |
-| Stairs | ![stairs.png](../../../../assets/wikiassets/images/stairs.png ) |
-| Star | ![star.png](../../../../assets/wikiassets/images/star.png ) |
-| Thick Hollow Cylinder | ![thickhollowcylinder.png](../../../../assets/wikiassets/images/thick_hollow_cylinder.png ) |
-| Thin Hollow Cylinder | ![thinhollowcylinder.png](../../../../assets/wikiassets/images/thin_hollow_cylinder.png ) |
-| Triangle | ![triangle.png](../../../../assets/wikiassets/images/triangle.png ) |
-| Triangle Ring | ![trianglering.png](../../../../assets/wikiassets/images/triangle_ring.png ) |
-| Triangular Cone | ![triangularcone.png](../../../../assets/wikiassets/images/triangular_cone.png ) |
-| Truss | ![truss.png](../../../../assets/wikiassets/images/truss.png ) |
-| Wedge | ![wedge.png](../../../../assets/wikiassets/images/wedge.png ) |
+<Tabs>
+<TabItem label='Block'>![block.png](../../../../assets/wikiassets/images/block.png )</TabItem>
+<TabItem label='Coil'>![coil.png](../../../../assets/wikiassets/images/coil.png )</TabItem>
+<TabItem label='Cone'>![cone.png](../../../../assets/wikiassets/images/cone.png )</TabItem>
+<TabItem label='Conical Frustrum'>![conical_fustrum.png](../../../../assets/wikiassets/images/conical_fustrum.png )</TabItem>
+<TabItem label='Corner Cylinder'>![cornercylinder.png](../../../../assets/wikiassets/images/corner_cylinder.png )</TabItem>
+<TabItem label='Corner Cylinder 2'>![corndercylinder2.png](../../../../assets/wikiassets/images/corner_cylinder2.png )</TabItem>
+<TabItem label='Corner Wedge'>![cornerwedge.png](../../../../assets/wikiassets/images/corner_wedge.png )</TabItem>
+<TabItem label='Corner Wedge 2'>![cornerwedge2.png](../../../../assets/wikiassets/images/corner_wedge2.png )</TabItem>
+<TabItem label='Crystal'>![crystal.png](../../../../assets/wikiassets/images/crystal.png )</TabItem>
+<TabItem label='Cube'>![cube.png](../../../../assets/wikiassets/images/cube.png )</TabItem>
+<TabItem label='Cylinder'>![cylinder.png](../../../../assets/wikiassets/images/cylinder.png )</TabItem>
+<TabItem label='Cylinder Cap'>![cylindercap.png](../../../../assets/wikiassets/images/cylinder_cap.png )</TabItem>
+<TabItem label='Dodecahedron'>![dodecahedron.png](../../../../assets/wikiassets/images/dodecahedron.png )</TabItem>
+<TabItem label='Edge Sphere'>![edgesphere.png](../../../../assets/wikiassets/images/edge_sphere.png )</TabItem>
+<TabItem label='Edge Wedge'>![edgewedge.png](../../../../assets/wikiassets/images/edge_wedge.png )</TabItem>
+<TabItem label='Egg'>![egg.png](../../../../assets/wikiassets/images/egg.png )</TabItem>
+<TabItem label='Fence'>![fence.png](../../../../assets/wikiassets/images/fence.png )</TabItem>
+<TabItem label='Frustrum'>![frustrum.png](../../../../assets/wikiassets/images/frustrum.png )</TabItem>
+<TabItem label='Half Sphere'>![halfsphere.png](../../../../assets/wikiassets/images/half_sphere.png )</TabItem>
+<TabItem label='Head'>![head.png](../../../../assets/wikiassets/images/head.png )</TabItem>
+<TabItem label='Hexagon'>![hexagon.png](../../../../assets/wikiassets/images/hexagon.png )</TabItem>
+<TabItem label='Hexagon Ring'>![hexagon_ring.png](../../../../assets/wikiassets/images/hexagon_ring.png )</TabItem>
+<TabItem label='Hexagonal Cone'>![hexagonal_cone.png](../../../../assets/wikiassets/images/hexagonal_cone.png )</TabItem>
+<TabItem label='Hollow Cylinder'>![hollow_cylinder.png](../../../../assets/wikiassets/images/hollow_cylinder.png )</TabItem>
+<TabItem label='Hollow Half Sphere'>![hollow_half_sphere.png](../../../../assets/wikiassets/images/hollow_half_sphere.png )</TabItem>
+<TabItem label='Hollow Sphere'>![hollowsphere.png](../../../../assets/wikiassets/images/sphere.png )</TabItem>
+<TabItem label='Ingot'>![ingot.png](../../../../assets/wikiassets/images/ingot.png )</TabItem>
+<TabItem label='Inverted Cylinder'>![invertedcylinder.png](../../../../assets/wikiassets/images/inverted_cylinder.png )</TabItem>
+<TabItem label='Inverted Edge Sphere'>![invertededgesphere.png](../../../../assets/wikiassets/images/inverted_edge_sphere.png )</TabItem>
+<TabItem label='Inverted Quarter Cylinder'>![invertedquartercylinder.png](../../../../assets/wikiassets/images/inverted_quarter_cylinder.png )</TabItem>
+<TabItem label='Octagon'>![octagon.png](../../../../assets/wikiassets/images/octagon.png )</TabItem>
+<TabItem label='Pentagon'>![pentagon.png](../../../../assets/wikiassets/images/pentagon.png )</TabItem>
+<TabItem label='Pentagon Ring'>![pentagonring.png](../../../../assets/wikiassets/images/pentagon_ring.png )</TabItem>
+<TabItem label='Pentagonal Cone'>![pentagonalcone.png](../../../../assets/wikiassets/images/pentagonal_cone.png )</TabItem>
+<TabItem label='Pyramid'>![pyramid.png](../../../../assets/wikiassets/images/pyramid.png )</TabItem>
+<TabItem label='Pyramidal Frustrum'>![pyramidal_frustrum.png](../../../../assets/wikiassets/images/pyramidal_frustrum.png )</TabItem>
+<TabItem label='Pyramidal Hexagon'>![pyramidalhexagon.png](../../../../assets/wikiassets/images/pyramidal_hexagon.png )</TabItem>
+<TabItem label='Quarter Cylinder'>![quartercylinder.png](../../../../assets/wikiassets/images/quarter_cylinder.png )</TabItem>
+<TabItem label='Ring'>![ring.png](../../../../assets/wikiassets/images/ring.png )</TabItem>
+<TabItem label='Seat Block'>![seatblock.png](../../../../assets/wikiassets/images/seat_block.png )</TabItem>
+<TabItem label='Sphere'>![sphere.png](../../../../assets/wikiassets/images/sphere.png )</TabItem>
+<TabItem label='Spiked Cylinder'>![spikedcylinder.png](../../../../assets/wikiassets/images/spiked_cylinder.png )</TabItem>
+<TabItem label='Pyramid'>![pyramid.png](../../../../assets/wikiassets/images/spiked_sphere.png )</TabItem>
+<TabItem label='Square Ring'>![square_ring.png](../../../../assets/wikiassets/images/square_ring.png )</TabItem>
+<TabItem label='Squashed Ring'>![squashedring.png](../../../../assets/wikiassets/images/squashed_ring.png )</TabItem>
+<TabItem label='Stairs'>![stairs.png](../../../../assets/wikiassets/images/stairs.png )</TabItem>
+<TabItem label='Star'>![star.png](../../../../assets/wikiassets/images/star.png )</TabItem>
+<TabItem label='Thick Hollow Cylinder'>![thickhollowcylinder.png](../../../../assets/wikiassets/images/thick_hollow_cylinder.png )</TabItem>
+<TabItem label='Thin Hollow Cylinder'>![thinhollowcylinder.png](../../../../assets/wikiassets/images/thin_hollow_cylinder.png )</TabItem>
+<TabItem label='Triangle'>![triangle.png](../../../../assets/wikiassets/images/triangle.png )</TabItem>
+<TabItem label='Triangle Ring'>![trianglering.png](../../../../assets/wikiassets/images/triangle_ring.png )</TabItem>
+<TabItem label='Triangular Cone'>![triangularcone.png](../../../../assets/wikiassets/images/triangular_cone.png )</TabItem>
+<TabItem label='Truss'>![truss.png](../../../../assets/wikiassets/images/truss.png )</TabItem>
+<TabItem label='Wedge'>![wedge.png](../../../../assets/wikiassets/images/wedge.png )</TabItem>
+</Tabs>
 
 ## Special
 <Aside title="Description">
 Special parts have special behaviours.
 </Aside>
 
-| Block Name | Preview |
-|-----|---------|
-| Text Block | ![image_2023-08-20_123511782.png](../../../../assets/wikiassets/images/special/text_block.png) |
-| Vehicle Seat | ![image_2023-08-20_123733620.png](../../../../assets/wikiassets/images/seat_block.png) |
-| NPC Block | ![image_2023-08-20_123944283.png](../../../../assets/wikiassets/images/special/npc_block.png) |
+<Tabs>
+<TabItem label='Floating Text Block'>![floating_text_block.png](../../../../assets/wikiassets/images/special/floating_text_block.png)</TabItem>
+<TabItem label='Hinge Block'>![hinge_block.png](../../../../assets/wikiassets/images/special/mot_hin_ser_alt.png)</TabItem>
+<TabItem label='Local Output Block'>![local_output_block.png](../../../../assets/wikiassets/images/special/local_output_block.png)</TabItem>
+<TabItem label='Mesh Block'>This has a mesh applied! ![mesh_block.png](../../../../assets/wikiassets/images/special/mesh_block_alt.png)</TabItem>
+<TabItem label='Morph Block'>![morph_block.png](../../../../assets/wikiassets/images/special/morph_block.png)</TabItem>
+<TabItem label='Motor Block'>![motor_block.png](../../../../assets/wikiassets/images/special/mot_hin_ser_alt.png)</TabItem>
+<TabItem label='NPC Block'>![npc_block.png](../../../../assets/wikiassets/images/special/npc_block.png)</TabItem>
+<TabItem label='Parallel Wiring Block'>![parallel_wiring_block.png](../../../../assets/wikiassets/images/special/npc_block.png)</TabItem>
+<TabItem label='Servo Block'>![servo_block.png](../../../../assets/wikiassets/images/special/mot_hin_ser_alt.png)</TabItem>
+<TabItem label='Sound Block'>![sound_block.png](../../../../assets/wikiassets/images/block.png)</TabItem>
+<TabItem label='Hinge Block'>![hinge_block.png](../../../../assets/wikiassets/images/special/spawn_point.png)</TabItem>
+<TabItem label='Stat Block'>![stat_block.png](../../../../assets/wikiassets/images/special/stat_block.png)</TabItem>
+<TabItem label='Text Block'>![text_block.png](../../../../assets/wikiassets/images/special/text_block.png)</TabItem>
+<TabItem label='Seat Block'>![seat_block.png](../../../../assets/wikiassets/images/seat_block.png)</TabItem>
+<TabItem label='Hinge Block'>![hinge_block.png](../../../../assets/wikiassets/images/special/water_block.png)</TabItem>
+</Tabs>
