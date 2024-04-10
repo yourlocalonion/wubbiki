@@ -18,12 +18,8 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Blocks and Logic',
+					label: 'Wubby',
 					autogenerate: { directory: 'reference' }
-				},
-				{
-					label: 'Contributing',
-					autogenerate: { directory: 'contributing' },
 				},
 				{
 					label: 'Other',
@@ -33,6 +29,10 @@ export default defineConfig({
 					label: 'Community',
 					autogenerate: { directory: 'community' },
 					badge: { text: 'WIP', variant: 'caution' },
+				},
+				{
+					label: 'Contributing',
+					autogenerate: { directory: 'contributing' },
 				},
 			],
 			customCss: [

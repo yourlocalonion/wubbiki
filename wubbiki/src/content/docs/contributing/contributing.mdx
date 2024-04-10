@@ -2,3 +2,29 @@
 title: Contributing to the Wubbiki
 description: contributing guide
 ---
+import { Code } from '@astrojs/starlight/components';
+import importedCode from '../contributing/contributing.mdx?raw';
+
+**Anyone** can contribute to this wiki! You can help us make pages, or edit existing pages.\
+
+## Contributing to the Wiki
+To contribute to this wiki, you must be familiar with:
+- Markdown, it is what all page's content uses.
+- Git, to contribute to the wiki repo.
+- VSCode, to edit the files. (you can use other editors aswell)
+
+All of the pages are stored in a [github repo](https://github.com/yourlocalonion/wubbiki).
+
+Wubbiki uses **markdown**, specifically **MarkdownX**. The syntax is similar to markdown, but 
+since Wubbiki was built off of **Astro's [Starlight](https://starlight.astro.build/)** template, 
+you can use Starlight's [components](https://starlight.astro.build/guides/components/).
+
+Here is this page in code-form:
+
+<Code code={importedCode} lang="mdx" title={'contributing.mdx'}/>
+
+### Guides
+- [Starlight Docs](https://starlight.astro.build/getting-started/)
+- [First Contributions (git guide)](https://github.com/firstcontributions/first-contributions)
+- [Markdown Guide](https://www.markdownguide.org/)
+- [MarkdownX](https://mdxjs.com/)
