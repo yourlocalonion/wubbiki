@@ -5,7 +5,7 @@ sidebar:
   order: 1
 ---
 
-import { LinkCard } from '@astrojs/starlight/components';
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
 
 <LinkCard
   title="Blocks"
@@ -24,3 +24,17 @@ import { LinkCard } from '@astrojs/starlight/components';
   description="All of the current zones in wubby."
   href="../logic/logic"
 />
+---
+<CardGrid>
+<LinkCard
+  title="Cosmetics"
+  description="(redirects to the wubbypedia page)"
+  href="https://wubbypedia.miraheze.org/wiki/Cosmetics"
+/>
+
+<LinkCard
+  title="Wubbits"
+  description="(wip, it redirects to the wubbypedia page for now)"
+  href="https://wubbypedia.miraheze.org/wiki/Wubbit"
+/>
+</CardGrid>
